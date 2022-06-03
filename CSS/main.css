@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Century Gothic;
+}
+
+header{
+	background-image: url("../wallpaper.jpg");
+	height:100vh;
+	background-position: center;
+}
+
+.logo img{
+	float:left;
+	width: 150px;
+	height:auto;
+}
+
+.title{
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: dimgrey;
+	font-size: 60px;
+	word-spacing: 10px;
+}
+
+.button{
+	position:absolute;
+	top:53%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid dimgrey;
+	font-weight: bold;
+	padding: 10px 30px;
+	color: dimgrey;
+	text-decoration:none;
+	transition:0.6s ease;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.btn:hover{
+	background-color: grey;
+	border-color: grey;
+	color:#fff;
+}

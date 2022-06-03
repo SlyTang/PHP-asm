@@ -1,0 +1,130 @@
+input[type=text], select,
+input[type=email], select,
+input[type=password], select ,
+input[type=number], select {
+    width: auto;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=reset],
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover,
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+body {
+    background-color:#99c7f5;
+}
+
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+  cursor: pointer;
+  display: inline-block;
+  padding: 3px 6px;
+  text-align: right;
+  width: 150px;
+  vertical-align: top;
+}
+
+.mainContent{
+    background-color: rgb(248, 255, 254);
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+/* the selection bar */
+.dropdwn{
+    width: 100%;
+   }
+
+nav{
+    height: 60px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+   }
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-right: 30px;
+   }
+
+
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    z-index: 99 !important;
+   }
+
+
+nav ul li a{
+    display: block;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+    transition: .5s;
+   }
+
+nav ul li a:hover{
+    background: #243342;
+   }
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    line-height: 20px !important;
+    display: none;
+   }
+
+nav ul li:hover > ul{
+    display: block;
+   }
+
+nav ul ul li{
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+    line-height: 20px !important;
+}
+
+#header{
+    background-color:#FFD4D4;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+}
